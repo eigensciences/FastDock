@@ -25,7 +25,7 @@ To make the best use of the resources provided in this repository, please follow
 
 ## Note
 For any inquiries or issues related to the files or their usage, feel free to open an issue in this repository. Alternatively, you can contact us via email:
-- Ananya Premkumar: aanyaprashanth@gmail.com
+- Ananya Premkumar: apkumar698@gmail.com
 - Gaurav Sharma: eigensciences@gmail.com
 
 ## Acknowledgements
