@@ -1,0 +1,11 @@
+import os
+
+# Change directory to the specified path
+os.chdir("downloads/CD/EBRN")
+
+# Execute scripts one by one
+scripts = ["1.py", "2.py", "3.py"]
+for script in scripts:
+    script_path = os.path.join("../../../scripts/", script)
+    os.system("python " + script_path)
+

@@ -1,0 +1,18 @@
+import os
+import glob
+
+def gunzip_pdbqt_in_downloads():
+    # Specify the downloads directory
+    downloads_path = os.path.expanduser("../downloads")
+
+    # Navigate through subdirectories in Downloads
+    for root, dirs, _ in os.walk(downloads_path):
+        # Find all .pdbqt files in the current directory and its subdirectories
+        pdbqt_files = glob.glob(os.path.join(root, "*", "*.gz"))
+        for pdbqt_file in pdbqt_files:
+            # Execute gunzip command
+            os.system(f"gunzip {pdbqt_file}")
+
+if __name__ == "__main__":
+    gunzip_pdbqt_in_downloads()
+

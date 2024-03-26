@@ -1,0 +1,21 @@
+import os
+
+print("Ligand_file:\t")
+ligfile = input()
+ligfile = ligfile.strip()
+
+try:
+    with open(ligfile, 'r') as fh:
+        arr_file = fh.readlines()
+except FileNotFoundError:
+    print("Cannot open file")
+    exit()
+
+for line in arr_file:
+    print(line)
+
+for filename in arr_file:
+    filename = filename.strip()
+    print(filename)
+    os.system("vina.exe --config conf_vs.txt --ligand {} --log {}.log".format(filename, filename))
+

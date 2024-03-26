@@ -1,0 +1,28 @@
+import os
+
+# Get a list of all .log files in the current directory
+log_files = [file for file in os.listdir() if file.endswith('.log')]
+
+# Iterate through each .log file
+for log_file in log_files:
+    with open(log_file, 'r') as fh:
+        # Read and store the lines from line 28 to line 28
+        lines = []
+        line_number = 0
+        for line in fh:
+            line_number += 1
+            if line_number >= 28:
+                lines.append(line)
+                if line_number == 28:
+                    break
+
+    # Check if the first line contains enough characters
+    if lines and len(lines[0]) >= 22:
+        # Extract the desired substring
+        substring = lines[0][10:22]  # Columns 11 to 22
+
+        # Print the extracted substring first and then the file name
+        print(f"{substring}: {log_file}")
+    else:
+        pass  # You may add handling for cases where the first line doesn't contain enough characters
+
