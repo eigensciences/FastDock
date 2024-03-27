@@ -2,13 +2,14 @@
 
 ![Blue Black Futuristic And Modern Technology Logo (1)](https://github.com/eigensciences/FastDock/assets/157979732/c5f1a516-07bf-4211-a99d-33f229c05246)
 
+FastDock is computational software that makes drug discovery easier by combining the AutoDock Vina docking technique to aid the drug discovery process.
 
 ## Research Author
 - Ananya Premkumar
 - Gaurav Sharma
 
 ## Affiliation
-- (Please insert affiliation details here)
+- Eigen Sciences, Apex, NC
 
 ## Introduction
 This repository contains files related to docking. These files are integral for conducting and analyzing docking simulations. To access and utilize these files efficiently, users are recommended to download and use 7zip software.
