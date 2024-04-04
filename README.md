@@ -1,6 +1,5 @@
 # FASTDOCK SCRIPTS
 
-![Blue Black Futuristic And Modern Technology Logo (1)](https://github.com/eigensciences/FastDock/assets/157979732/c5f1a516-07bf-4211-a99d-33f229c05246)
 
 FastDock is computational software that makes drug discovery easier by combining the AutoDock Vina docking technique to aid the drug discovery process.
 
